@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('DevOpsHerokuDocker - Hello Philip. Was passiert bei Änderungen? :-)))');
+  res.send('Was passiert bei Änderungen? :-))) Wieder heroku push und release ausführen, schon sind die Änderungen verfügbar :-)');
 });
 
 app.listen(PORT, HOST);
